@@ -1,0 +1,99 @@
+
+.comment {
+    width: 500px; /* ширина блока */
+    background-color: #e0f7fa; /* мягкий голубой цвет фона */
+    border: 1px solid #b2ebf2; /* светлый цвет для границы */
+    border-radius: 10px; /* скругление углов */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* лёгкая тень */
+    padding: 20px; /* отступ внутри блока */
+    margin: 20px auto; /* отступы сверху и снизу, центрирование по горизонтали */
+}
+
+
+
+.comment-text {
+    font-size: 16px; /* размер текста */
+    color: #00796b; /* зелёный оттенок текста */
+    line-height: 1.6; /* межстрочный интервал */
+    margin-top: 10px; /* отступ сверху */
+}
+
+
+.user-info {
+    display: flex; /* выравнивание элементов в строку */
+    align-items: center; /* центрирование по вертикали */
+    margin-bottom: 10px; /* отступ снизу */
+}
+
+.user-info img {
+    width: 50px; /* ширина аватарки */
+    height: 50px; /* высота аватарки */
+    border-radius: 50%; /* аватарка становится круглой */
+    margin-right: 10px; /* отступ справа */
+}
+
+.user-info-name {
+    font-weight: bold; /* жирный текст */
+    font-size: 18px; /* размер текста */
+    color: #004d40; /* тёмно-зелёный цвет */
+}
+
+
+.date {
+    font-size: 14px; /* небольшой размер текста */
+    color: #757575; /* серый цвет */
+    margin-top: 10px; /* отступ сверху */
+    font-style: italic; /* курсивный стиль */
+}
+
+
+
+.comment {
+    width: 500px;
+    background-color: #e0f7fa;
+    border: 1px solid #b2ebf2;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.comment-text {
+    font-size: 16px;
+    color: #00796b;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-info-name {
+    font-weight: bold;
+    font-size: 18px;
+    color: #004d40;
+}
+
+.date {
+    font-size: 14px;
+    color: #757575;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+
+
+/* .comment {
+    width: 500px;
+    background-color: aqua;
+} */
